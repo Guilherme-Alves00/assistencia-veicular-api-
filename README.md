@@ -72,9 +72,12 @@ Destino → Prestador
 
 Se a distância for maior que o km de saída, será aplicado o valor excedente por km, além do valor base mínimo (valor de saída).
 
-° Usuário de teste incluído via Seeder
-E-mail: teste@infornet.com
-Senha: senha123
+° ## Usuário de teste incluído via Seeder
+
+```txt
+E-mail: admin@infornet.com.br  
+Senha: 123456
+
 
 ° Scripts e estrutura
 Uso de Repository Pattern para separação de responsabilidades
