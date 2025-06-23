@@ -78,7 +78,6 @@ Se a distância for maior que o km de saída, será aplicado o valor excedente p
 E-mail: admin@infornet.com.br  
 Senha: 123456
 
-
 ° Scripts e estrutura
 Uso de Repository Pattern para separação de responsabilidades
 Seeders para popular mais de 25 prestadores e múltiplos serviços
