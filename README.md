@@ -47,11 +47,11 @@ cd assistencia-veicular-api-
 
 5. Rode as migrations e seeders:
    
-    php artisan migrate --seed
+      php artisan migrate --seed
 
 7. Inicie o servidor:
    
-    php artisan serve
+      php artisan serve
 
 ° Endpoints principais
 Método	Rota	Descrição
