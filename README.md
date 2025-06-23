@@ -27,8 +27,8 @@ cd assistencia-veicular-api-
 2. Instale as dependências: composer install
 
 3. Copie o arquivo .env e gere a key da aplicação:
-cp .env.example .env
-php artisan key:generate
+    cp .env.example .env
+    php artisan key:generate
 
 4. Configure seu .env com os dados abaixo:
 DB_CONNECTION=mysql
@@ -62,7 +62,7 @@ Prestador → Origem
 Origem → Destino
 Destino → Prestador
 
-    Se a distância for maior que o km de saída, será aplicado o valor excedente por km, além do valor base mínimo (valor de saída).
+Se a distância for maior que o km de saída, será aplicado o valor excedente por km, além do valor base mínimo (valor de saída).
 
 ° Usuário de teste incluído via Seeder
 E-mail: teste@infornet.com
