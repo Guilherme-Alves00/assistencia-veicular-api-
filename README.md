@@ -26,16 +26,17 @@ cd assistencia-veicular-api-
 
 2. Instale as dependências:
 
-    ```composer install
-   ```
+```bash
+composer install
+```
 
-4. Copie o arquivo .env e gere a key da aplicação:
+3. Copie o arquivo .env e gere a key da aplicação:
 
     cp .env.example .env
    
     php artisan key:generate
 
-5. Configure seu .env com os dados abaixo:
+4. Configure seu .env com os dados abaixo:
 
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
@@ -49,11 +50,11 @@ cd assistencia-veicular-api-
  
     API_SENHA=c@nsulta-dad0s-ap1-teste-Infornet#24
 
-6. Rode as migrations e seeders:
+5. Rode as migrations e seeders:
    
       php artisan migrate --seed
 
-7. Inicie o servidor:
+6. Inicie o servidor:
    
       php artisan serve
 
