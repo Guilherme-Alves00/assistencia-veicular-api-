@@ -27,9 +27,9 @@ cd assistencia-veicular-api-
 2. Instale as dependências: composer install
 
 3. Copie o arquivo .env e gere a key da aplicação:
-   cp .env.example .env
+    cp .env.example .env
    
-   php artisan key:generate
+    php artisan key:generate
 
 5. Configure seu .env com os dados abaixo:
 
@@ -46,10 +46,12 @@ cd assistencia-veicular-api-
     API_SENHA=c@nsulta-dad0s-ap1-teste-Infornet#24
 
 5. Rode as migrations e seeders:
-   php artisan migrate --seed
+   
+    php artisan migrate --seed
 
-6. Inicie o servidor:
-   php artisan serve
+7. Inicie o servidor:
+   
+    php artisan serve
 
 ° Endpoints principais
 Método	Rota	Descrição
