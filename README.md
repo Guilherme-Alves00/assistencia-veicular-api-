@@ -26,7 +26,7 @@ cd assistencia-veicular-api-
 
 2. Instale as dependências:
 
-    composer install
+    ```composer install```
 
 3. Copie o arquivo .env e gere a key da aplicação:
 
