@@ -21,7 +21,7 @@ API RESTful desenvolvida em Laravel para gerenciamento de prestadores de serviç
 
 ```bash
 git clone https://github.com/Guilherme-Alves00/assistencia-veicular-api-.git
-cd assistencia-veicular-api-
+cd assistencia-veicular-api- ```
 
 2. Instale as dependências: composer install
 
