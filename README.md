@@ -31,6 +31,7 @@ cd assistencia-veicular-api-
    php artisan key:generate
 
 4. Configure seu .env com os dados abaixo:
+
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
