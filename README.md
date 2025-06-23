@@ -87,7 +87,7 @@ Uso de Repository Pattern para separação de responsabilidades
 Seeders para popular mais de 25 prestadores e múltiplos serviços
 Código orientado a boas práticas e princípios SOLID
 
-° Requisitos atendidos
+## Requisitos atendidos
 ✔ Laravel com MySQL ✔ Autenticação JWT ✔ API externa com Basic Auth ✔ Interface via Blade + AJAX ✔ Mínimo de dados exigidos no desafio ✔ Organização por camadas: Models, Services, Repositories, Controllers
 
 Este projeto foi desenvolvido para o desafio técnico da Infornet Assistência.
