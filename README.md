@@ -31,11 +31,12 @@ composer install
 ```
 
 3. Copie o arquivo .env e gere a key da aplicação:
-
+```bash
     cp .env.example .env
-   
+ ```
+```bash  
     php artisan key:generate
-
+```
 4. Configure seu .env com os dados abaixo:
 
    DB_CONNECTION=mysql
@@ -51,9 +52,9 @@ composer install
     API_SENHA=c@nsulta-dad0s-ap1-teste-Infornet#24
 
 5. Rode as migrations e seeders:
-   
+   ```bash
       php artisan migrate --seed
-
+   ```
 6. Inicie o servidor:
    
       php artisan serve
