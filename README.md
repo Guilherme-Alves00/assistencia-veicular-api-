@@ -56,9 +56,9 @@ composer install
       php artisan migrate --seed
    ```
 6. Inicie o servidor:
-   
+   ```bash
       php artisan serve
-
+   ```
 ° Endpoints principais
 Método	Rota	Descrição
 POST	/api/login	Autenticação e geração de token JWT
