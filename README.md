@@ -27,6 +27,7 @@ cd assistencia-veicular-api-
 2. Instale as dependências: composer install
 
 3. Copie o arquivo .env e gere a key da aplicação:
+
     cp .env.example .env
    
     php artisan key:generate
