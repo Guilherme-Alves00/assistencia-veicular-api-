@@ -75,6 +75,5 @@ Código orientado a boas práticas e princípios SOLID
 ° Requisitos atendidos
 ✔ Laravel com MySQL ✔ Autenticação JWT ✔ API externa com Basic Auth ✔ Interface via Blade + AJAX ✔ Mínimo de dados exigidos no desafio ✔ Organização por camadas: Models, Services, Repositories, Controllers
 
-° Contato
 Este projeto foi desenvolvido para o desafio técnico da Infornet Assistência.
 ```
