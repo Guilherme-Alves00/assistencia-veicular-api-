@@ -28,27 +28,28 @@ cd assistencia-veicular-api-
 
 3. Copie o arquivo .env e gere a key da aplicação:
    cp .env.example .env
+   
    php artisan key:generate
 
-4. Configure seu .env com os dados abaixo:
+5. Configure seu .env com os dados abaixo:
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
 
-DB_DATABASE=nome_do_banco
-DB_USERNAME=seu_usuario
-DB_PASSWORD=sua_senha
+   DB_DATABASE=nome_do_banco
+   DB_USERNAME=seu_usuario
+   DB_PASSWORD=sua_senha
 
     API_USUARIO=teste-Infornet
  
     API_SENHA=c@nsulta-dad0s-ap1-teste-Infornet#24
 
 5. Rode as migrations e seeders:
-php artisan migrate --seed
+   php artisan migrate --seed
 
 6. Inicie o servidor:
-php artisan serve
+   php artisan serve
 
 ° Endpoints principais
 Método	Rota	Descrição
