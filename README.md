@@ -39,6 +39,7 @@ DB_USERNAME=seu_usuario
 DB_PASSWORD=sua_senha
 
  API_USUARIO=teste-Infornet
+ 
  API_SENHA=c@nsulta-dad0s-ap1-teste-Infornet#24
 
 5. Rode as migrations e seeders:
