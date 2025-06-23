@@ -24,7 +24,9 @@ git clone https://github.com/Guilherme-Alves00/assistencia-veicular-api-.git
 cd assistencia-veicular-api-
 ```
 
-2. Instale as dependências: composer install
+2. Instale as dependências:
+
+    composer install
 
 3. Copie o arquivo .env e gere a key da aplicação:
 
@@ -32,7 +34,7 @@ cd assistencia-veicular-api-
    
     php artisan key:generate
 
-5. Configure seu .env com os dados abaixo:
+4. Configure seu .env com os dados abaixo:
 
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
@@ -50,7 +52,7 @@ cd assistencia-veicular-api-
    
       php artisan migrate --seed
 
-7. Inicie o servidor:
+6. Inicie o servidor:
    
       php artisan serve
 
